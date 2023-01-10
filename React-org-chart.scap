@@ -1,26 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ScappleDocument Version="1.2" ID="B1A97E85-9F5C-44FC-AEF2-0AFAD9D6EB1F">
   <Notes>
-    <Note ID="0" FontSize="22.0" Position="677.8,39.8" Width="92.0">
+    <Note ID="0" FontSize="22.0" Position="445.6,256.7" Width="150.6">
       <Appearance>
         <Alignment>Center</Alignment>
-        <Border Weight="1">0.9024706482887268 0.8555303812026978 0.628868043422699</Border>
-        <Fill>0.463 0.11 0.259</Fill>
+        <Border Weight="1" Style="Square">0.9024706483 0.8555303812 0.6288680434</Border>
+        <Fill>0.408 0.369 0.035</Fill>
       </Appearance>
-      <String>Index.js</String>
-      <ConnectedNoteIDs>1</ConnectedNoteIDs>
+      <String>index.js</String>
+      <ConnectedNoteIDs>1-3</ConnectedNoteIDs>
     </Note>
-    <Note ID="1" FontSize="22.0" Position="682.5,108.3" Width="78.0">
+    <Note ID="1" FontSize="22.0" Position="446.6,386.5" Width="146.8">
       <Appearance>
-        <Alignment>Left</Alignment>
-        <Border Weight="1"/>
+        <Alignment>Center</Alignment>
+        <Border Weight="1" Style="Square"/>
+        <Fill>0.408 0.369 0.035</Fill>
       </Appearance>
       <String>App.js</String>
+      <ConnectedNoteIDs>0, 4</ConnectedNoteIDs>
+      <PointsToNoteIDs>0</PointsToNoteIDs>
+    </Note>
+    <Note ID="2" FontSize="30.9" Position="284.8,128.6" Width="464.9">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Fill>0.008 0.275 0.663</Fill>
+      </Appearance>
+      <String>src
+FOLDER</String>
       <ConnectedNoteIDs>0</ConnectedNoteIDs>
+    </Note>
+    <Note ID="3" FontSize="16.0" Position="643.4,254.4" Width="91.0">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Style="Cloud"/>
+        <Fill>0.318 0.486 0.176</Fill>
+      </Appearance>
+      <String>index.css</String>
+      <ConnectedNoteIDs>0</ConnectedNoteIDs>
+      <PointsToNoteIDs>0</PointsToNoteIDs>
+    </Note>
+    <Note ID="4" FontSize="30.9" Position="406.9,457.6" Width="222.1">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Fill>0.008 0.275 0.663</Fill>
+      </Appearance>
+      <String>components
+FOLDER</String>
+      <ConnectedNoteIDs>1, 5</ConnectedNoteIDs>
+    </Note>
+    <Note ID="5" FontSize="22.0" Position="262.6,586.4" Width="167.0">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1" Style="Square"/>
+        <Fill>0.408 0.369 0.035</Fill>
+      </Appearance>
+      <String>ExpenseItem.js</String>
+      <ConnectedNoteIDs>4, 6</ConnectedNoteIDs>
+    </Note>
+    <Note ID="6" FontSize="16.0" Position="53.1,605.0" Width="138.0">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Style="Cloud"/>
+        <Fill>0.318 0.486 0.176</Fill>
+      </Appearance>
+      <String>ExpenseItem.css</String>
+      <ConnectedNoteIDs>5</ConnectedNoteIDs>
+      <PointsToNoteIDs>5</PointsToNoteIDs>
     </Note>
   </Notes>
   <BackgroundShapes/>
-  <AutoFit>0-1</AutoFit>
+  <Labels>
+    <Label IDs="0,1">Import</Label>
+  </Labels>
+  <AutoFit>5-6</AutoFit>
   <NoteStyles>
     <Style Name="Bubble (Blue)" ID="C0FAC30B-A948-4200-8BAD-806758C07EE1" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
       <BorderThickness>1</BorderThickness>
