@@ -17,7 +17,7 @@
         <Fill>0.408 0.369 0.035</Fill>
       </Appearance>
       <String>App.js</String>
-      <ConnectedNoteIDs>0, 4</ConnectedNoteIDs>
+      <ConnectedNoteIDs>0, 4, 7</ConnectedNoteIDs>
       <PointsToNoteIDs>0</PointsToNoteIDs>
     </Note>
     <Note ID="2" FontSize="30.9" Position="284.8,128.6" Width="464.9">
@@ -57,22 +57,51 @@ FOLDER</String>
       <String>ExpenseItem.js</String>
       <ConnectedNoteIDs>4, 6</ConnectedNoteIDs>
     </Note>
-    <Note ID="6" FontSize="16.0" Position="53.1,605.0" Width="138.0">
+    <Note ID="6" FontSize="16.0" Position="53.3,597.2" Width="138.0">
       <Appearance>
         <Alignment>Center</Alignment>
         <Border Style="Cloud"/>
         <Fill>0.318 0.486 0.176</Fill>
       </Appearance>
       <String>ExpenseItem.css</String>
-      <ConnectedNoteIDs>5</ConnectedNoteIDs>
+      <ConnectedNoteIDs>5, 8</ConnectedNoteIDs>
       <PointsToNoteIDs>5</PointsToNoteIDs>
+    </Note>
+    <Note ID="7" FontSize="12.0" Position="94.5,405.3" Width="261.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Fill>0.26999998092651367 0.26999998092651367 0.26999998092651367</Fill>
+      </Appearance>
+      <String>the App.js file gathers all the components into one and outputs itself to the index.js file, which in turn generates the final page(s)</String>
+      <ConnectedNoteIDs>1</ConnectedNoteIDs>
+      <Formatting>
+        <FormatRange Italic="Yes">0,52</FormatRange>
+        <FormatRange Bold="Yes" Italic="Yes" Underline="Yes">52,19</FormatRange>
+        <FormatRange Italic="Yes">71,63</FormatRange>
+      </Formatting>
+    </Note>
+    <Note ID="8" FontSize="12.0" Position="94.3,460.4" Width="219.0">
+      <Appearance>
+        <Alignment>Left</Alignment>
+        <Fill>0.26999998092651367 0.26999998092651367 0.26999998092651367</Fill>
+      </Appearance>
+      <String>each component has its own CSS file!</String>
+      <ConnectedNoteIDs>6</ConnectedNoteIDs>
+      <Formatting>
+        <FormatRange Italic="Yes">0,36</FormatRange>
+      </Formatting>
     </Note>
   </Notes>
   <BackgroundShapes/>
+  <Stacks>
+    <Stack>7-8</Stack>
+  </Stacks>
   <Labels>
     <Label IDs="0,1">Import</Label>
+    <Label IDs="1,7">(INFO)</Label>
+    <Label IDs="6,8">(INFO)</Label>
   </Labels>
-  <AutoFit>5-6</AutoFit>
+  <AutoFit>5-6, 8</AutoFit>
   <NoteStyles>
     <Style Name="Bubble (Blue)" ID="C0FAC30B-A948-4200-8BAD-806758C07EE1" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
       <BorderThickness>1</BorderThickness>
