@@ -3,10 +3,20 @@ import "./ExpenseItem.css";
 import ExpenseDate from "./ExpenseDate";
 import Card from "../UI/Card";
 
+// function getNewValue() {
+//     let someNewVal = "";
+//     while (!someNewVal) {
+//         someNewVal = prompt("NEW VALUE?");
+//     }
+//     console.log(someNewVal);
+//     return someNewVal;
+// }
+
 const ExpenseItem = (props) => {
     const [title, setTitle] = useState(props.title);
     function clickHandler() {
-        setTitle("UPDATED");
+        // setTitle(getNewValue());
+        setTitle("updated");
     }
     return (
         <Card className="expense-item">
