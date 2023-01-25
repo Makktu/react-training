@@ -14,10 +14,10 @@ import Card from "../UI/Card";
 
 const ExpenseItem = (props) => {
     const [title, setTitle] = useState(props.title);
-    function clickHandler() {
+    const clickHandler = () => {
         // setTitle(getNewValue());
         setTitle("updated");
-    }
+    };
     return (
         <Card className="expense-item">
             <ExpenseDate date={props.date} />
