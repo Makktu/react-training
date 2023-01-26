@@ -2,6 +2,7 @@ import Expenses from "./components/Expenses/Expenses";
 import NewExpense from "./components/NewExpense/NewExpense";
 
 const App = () => {
+    const cheekyTest = "This is a cheeky test";
     const myExpenses = [
         {
             id: "e1",
@@ -29,9 +30,14 @@ const App = () => {
         },
     ];
 
+    const addExpenseHandler = (expenses) => {
+        console.log("This is App.js");
+        console.log(expenses);
+    };
+
     return (
         <div>
-            <NewExpense />
+            <NewExpense onAddExpense={addExpenseHandler} />
             <Expenses expenses={myExpenses} />;
         </div>
     );
