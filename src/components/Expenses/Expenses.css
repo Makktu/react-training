@@ -5,3 +5,7 @@
     width: 50rem;
     max-width: 95%;
 }
+
+.expenses__data_none-found {
+    color: yellow;
+}

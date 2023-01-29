@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ScappleDocument Version="1.2" ID="B1A97E85-9F5C-44FC-AEF2-0AFAD9D6EB1F">
   <Notes>
-    <Note ID="0" FontSize="22.0" Position="445.6,256.7" Width="150.6">
+    <Note ID="0" FontSize="22.0" Position="1107.8,275.7" Width="150.6">
       <Appearance>
         <Alignment>Center</Alignment>
         <Border Weight="1" Style="Square">0.9024706483 0.8555303812 0.6288680434</Border>
@@ -10,17 +10,17 @@
       <String>index.js</String>
       <ConnectedNoteIDs>1-3</ConnectedNoteIDs>
     </Note>
-    <Note ID="1" FontSize="22.0" Position="475.5,387.0" Width="89.0">
+    <Note ID="1" FontSize="22.0" Position="1137.7,406.0" Width="89.0">
       <Appearance>
         <Alignment>Center</Alignment>
         <Border Weight="1" Style="Square"/>
         <Fill>0.408 0.369 0.035</Fill>
       </Appearance>
       <String>App.jsx</String>
-      <ConnectedNoteIDs>0, 4, 7</ConnectedNoteIDs>
+      <ConnectedNoteIDs>0, 4</ConnectedNoteIDs>
       <PointsToNoteIDs>0</PointsToNoteIDs>
     </Note>
-    <Note ID="2" FontSize="30.9" Position="284.8,128.6" Width="464.9">
+    <Note ID="2" FontSize="30.9" Position="947.0,147.6" Width="464.9">
       <Appearance>
         <Alignment>Center</Alignment>
         <Fill>0.008 0.275 0.663</Fill>
@@ -29,7 +29,7 @@
 FOLDER</String>
       <ConnectedNoteIDs>0</ConnectedNoteIDs>
     </Note>
-    <Note ID="3" FontSize="16.0" Position="643.4,254.4" Width="91.0">
+    <Note ID="3" FontSize="16.0" Position="1305.6,273.4" Width="91.0">
       <Appearance>
         <Alignment>Center</Alignment>
         <Border Style="Cloud"/>
@@ -39,77 +39,76 @@ FOLDER</String>
       <ConnectedNoteIDs>0</ConnectedNoteIDs>
       <PointsToNoteIDs>0</PointsToNoteIDs>
     </Note>
-    <Note ID="4" FontSize="30.9" Position="406.9,457.6" Width="222.1">
+    <Note ID="4" FontSize="30.9" Position="1069.1,476.6" Width="222.1">
       <Appearance>
         <Alignment>Center</Alignment>
         <Fill>0.008 0.275 0.663</Fill>
       </Appearance>
       <String>components
 FOLDER</String>
-      <ConnectedNoteIDs>1, 5, 9-10</ConnectedNoteIDs>
+      <ConnectedNoteIDs>1, 13-15</ConnectedNoteIDs>
     </Note>
-    <Note ID="5" FontSize="22.0" Position="258.0,586.0" Width="178.0">
+    <Note ID="5" FontSize="22.0" Position="850.7,713.1" Width="178.0">
       <Appearance>
         <Alignment>Center</Alignment>
         <Border Weight="1" Style="Square"/>
         <Fill>0.408 0.369 0.035</Fill>
       </Appearance>
       <String>ExpenseItem.jsx</String>
-      <ConnectedNoteIDs>4, 6</ConnectedNoteIDs>
+      <ConnectedNoteIDs>6, 13</ConnectedNoteIDs>
     </Note>
-    <Note ID="6" FontSize="16.0" Position="279.6,661.8" Width="138.0">
+    <Note ID="6" FontSize="16.0" Position="876.6,776.6" Width="138.0">
       <Appearance>
         <Alignment>Center</Alignment>
         <Border Style="Cloud"/>
         <Fill>0.318 0.486 0.176</Fill>
       </Appearance>
       <String>ExpenseItem.css</String>
-      <ConnectedNoteIDs>5, 8</ConnectedNoteIDs>
+      <ConnectedNoteIDs>5</ConnectedNoteIDs>
       <PointsToNoteIDs>5</PointsToNoteIDs>
     </Note>
-    <Note ID="7" FontSize="12.0" Position="156.1,335.3" Width="261.0">
+    <Note ID="7" FontSize="24.2" Position="565.3,272.1" Width="261.0">
       <Appearance>
         <Alignment>Left</Alignment>
         <Fill>0.2699999809 0.2699999809 0.2699999809</Fill>
       </Appearance>
       <String>the App.js file gathers all the components into one and outputs itself to the index.js file, which in turn generates the final page(s)</String>
-      <ConnectedNoteIDs>1</ConnectedNoteIDs>
       <Formatting>
         <FormatRange Italic="Yes">0,52</FormatRange>
         <FormatRange Bold="Yes" Italic="Yes" Underline="Yes">52,19</FormatRange>
         <FormatRange Italic="Yes">71,63</FormatRange>
       </Formatting>
     </Note>
-    <Note ID="8" FontSize="12.0" Position="18.8,640.8" Width="219.0">
+    <Note ID="8" FontSize="21.6" Position="632.7,805.5" Width="214.0">
       <Appearance>
         <Alignment>Left</Alignment>
         <Fill>0.2699999809 0.2699999809 0.2699999809</Fill>
       </Appearance>
-      <String>each component has its own CSS file!</String>
-      <ConnectedNoteIDs>6</ConnectedNoteIDs>
+      <String>each component
+gets its own CSS file</String>
       <Formatting>
         <FormatRange Italic="Yes">0,36</FormatRange>
       </Formatting>
     </Note>
-    <Note ID="9" FontSize="22.0" Position="460.0,586.0" Width="182.0">
+    <Note ID="9" FontSize="22.0" Position="976.5,821.8" Width="182.0">
       <Appearance>
         <Alignment>Center</Alignment>
         <Border Weight="1" Style="Square"/>
         <Fill>0.408 0.369 0.035</Fill>
       </Appearance>
       <String>ExpenseDate.jsx</String>
-      <ConnectedNoteIDs>4, 11</ConnectedNoteIDs>
+      <ConnectedNoteIDs>11, 13</ConnectedNoteIDs>
     </Note>
-    <Note ID="10" FontSize="22.0" Position="674.1,588.5" Width="180.0">
+    <Note ID="10" FontSize="22.0" Position="870.7,944.1" Width="146.0">
       <Appearance>
         <Alignment>Center</Alignment>
         <Border Weight="1" Style="Square"/>
         <Fill>0.408 0.369 0.035</Fill>
       </Appearance>
-      <String>ExpensesList.jsx</String>
-      <ConnectedNoteIDs>4, 12</ConnectedNoteIDs>
+      <String>Expenses.jsx</String>
+      <ConnectedNoteIDs>12-13</ConnectedNoteIDs>
     </Note>
-    <Note ID="11" FontSize="16.0" Position="482.0,659.8" Width="141.0">
+    <Note ID="11" FontSize="16.0" Position="994.4,883.0" Width="141.0">
       <Appearance>
         <Alignment>Center</Alignment>
         <Border Style="Cloud"/>
@@ -119,24 +118,68 @@ FOLDER</String>
       <ConnectedNoteIDs>9</ConnectedNoteIDs>
       <PointsToNoteIDs>9</PointsToNoteIDs>
     </Note>
-    <Note ID="12" FontSize="16.0" Position="697.0,657.7" Width="140.0">
+    <Note ID="12" FontSize="16.0" Position="889.9,1002.1" Width="115.0">
       <Appearance>
         <Alignment>Center</Alignment>
         <Border Style="Cloud"/>
         <Fill>0.318 0.486 0.176</Fill>
       </Appearance>
-      <String>ExpensesList.css</String>
+      <String>Expenses.css</String>
       <ConnectedNoteIDs>10</ConnectedNoteIDs>
       <PointsToNoteIDs>10</PointsToNoteIDs>
+    </Note>
+    <Note ID="13" FontSize="30.9" Position="933.0,590.0" Width="162.0">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Fill>0.008 0.275 0.663</Fill>
+      </Appearance>
+      <String>Expenses
+FOLDER</String>
+      <ConnectedNoteIDs>4-5, 9-10, 16</ConnectedNoteIDs>
+    </Note>
+    <Note ID="14" FontSize="30.9" Position="1109.0,587.1" Width="215.0">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Fill>0.008 0.275 0.663</Fill>
+      </Appearance>
+      <String>NewExpense
+FOLDER</String>
+      <ConnectedNoteIDs>4</ConnectedNoteIDs>
+    </Note>
+    <Note ID="15" FontSize="30.9" Position="1347.8,584.0" Width="142.0">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Fill>0.008 0.275 0.663</Fill>
+      </Appearance>
+      <String>UI
+FOLDER</String>
+      <ConnectedNoteIDs>4</ConnectedNoteIDs>
+    </Note>
+    <Note ID="16" FontSize="22.0" Position="959.8,1047.6" Width="194.0">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Weight="1" Style="Square"/>
+        <Fill>0.408 0.369 0.035</Fill>
+      </Appearance>
+      <String>ExpensesFilter.jsx</String>
+      <ConnectedNoteIDs>13, 17</ConnectedNoteIDs>
+    </Note>
+    <Note ID="17" FontSize="16.0" Position="982.3,1107.6" Width="150.0">
+      <Appearance>
+        <Alignment>Center</Alignment>
+        <Border Style="Cloud"/>
+        <Fill>0.318 0.486 0.176</Fill>
+      </Appearance>
+      <String>ExpensesFilter.css</String>
+      <ConnectedNoteIDs>16</ConnectedNoteIDs>
+      <PointsToNoteIDs>16</PointsToNoteIDs>
     </Note>
   </Notes>
   <BackgroundShapes/>
   <Labels>
     <Label IDs="0,1">Import</Label>
-    <Label IDs="1,7">(INFO)</Label>
-    <Label IDs="6,8">(INFO)</Label>
   </Labels>
-  <AutoFit>1, 5-6, 8-12</AutoFit>
+  <AutoFit>1, 5-6, 8-12, 15-17</AutoFit>
   <NoteStyles>
     <Style Name="Bubble (Blue)" ID="C0FAC30B-A948-4200-8BAD-806758C07EE1" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
       <BorderThickness>1</BorderThickness>
