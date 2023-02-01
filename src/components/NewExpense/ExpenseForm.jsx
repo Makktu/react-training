@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./ExpenseForm.css";
+import "./styles/ExpenseForm.css";
 
 const ExpenseForm = (props) => {
     const [enteredTitle, setEnteredTitle] = useState("");
@@ -44,6 +44,11 @@ const ExpenseForm = (props) => {
 
     const submitHandler = (event) => {
         event.preventDefault();
+
+        if (!enteredAmount || !enteredTitle || !enteredDate) {
+            alert("All fields must be completed.");
+            return;
+        }
 
         const expenseData = {
             title: enteredTitle,
@@ -91,7 +96,11 @@ const ExpenseForm = (props) => {
                     />
                 </div>
             </div>
+
             <div className="new-expense__actions">
+                <button type="button" onClick={props.onCancel}>
+                    Cancel
+                </button>
                 <button type="submit">Add Expense</button>
             </div>
         </form>
